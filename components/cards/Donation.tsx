@@ -20,7 +20,7 @@ const Donation = () => {
           </div>
         </div>
         <div className="pb-2 space-y-3">
-          <h1 className="text-title-large">
+          <h1 className="font-nocturno-light text-title-large">
             Donasi Untuk Almamater: Bantu FORSA untuk selalu menebar manfaat
             untuk almamater
           </h1>
@@ -47,7 +47,7 @@ const Donation = () => {
             <p>58 Days to Go</p>
           </div>
         </div>
-        <div className="py-4 border-b w-full flex justify-center">
+        <div className="py-4 w-full flex justify-center">
           <button className="px-4 py-2 bg-green-500 text-label-small text-white font-dinamit-light">
             Donasi Sekarang
           </button>

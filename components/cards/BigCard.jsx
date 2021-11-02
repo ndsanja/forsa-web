@@ -11,12 +11,14 @@ const BigCard = () => {
       </div>
       <div className="grid xl:grid-cols-2  space-y-4">
         <div className="space-y-2 mx-5 md:ml-0 md:mr-16 lg:mr-20">
-          <h6 className="font-dinamit-medium text-xs tracking-widest uppercase">
+          <h6 className="font-dinamit-medium text-label-small tracking-widest uppercase">
             world
           </h6>
-          <h1 className="font-nocturno-regular text-5xl">Ini Adalah Title</h1>
+          <h1 className="font-nocturno-regular text-headline-medium">
+            Ini Adalah Title
+          </h1>
         </div>
-        <div className="font-dinamit-light text-lg mx-5 md:ml-0 md:mr-16 lg:mr-20">
+        <div className="font-dinamit-light text-body-large mx-5 md:ml-0 md:mr-16 lg:mr-20">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
             quasi incidunt voluptas deleniti, fuga

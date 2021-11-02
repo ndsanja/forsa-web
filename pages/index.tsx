@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className=" md:w-[35%] md:pr-[10%]  md:pt-40 space-y-4 -mr-5 md:mr-0">
-            <h3 className="font-dinamit-medium uppercase tracking-widest text-sm">
+            <h3 className="font-dinamit-medium uppercase tracking-widest text-label-medium">
               today Events
             </h3>
             <div className="flex md:flex-col space-x-10 md:space-x-0  md:space-y-10 overflow-x-scroll md:overflow-x-hidden w-full">

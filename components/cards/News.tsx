@@ -9,12 +9,14 @@ const News = () => {
       </div>
       <div className="grid space-y-4">
         <div className="space-y-2">
-          <h6 className="font-dinamit-medium text-xs tracking-widest uppercase">
+          <h6 className="font-dinamit-medium text-label-small tracking-widest uppercase">
             Category
           </h6>
-          <h1 className="font-nocturno-regular text-3xl">Ini Adalah Title</h1>
+          <h1 className="font-nocturno-regular text-headline-small">
+            Ini Adalah Title
+          </h1>
         </div>
-        <div className="font-dinamit-light text-sm">
+        <div className="font-dinamit-light text-body-medium">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
             quasi incidunt voluptas deleniti, fuga

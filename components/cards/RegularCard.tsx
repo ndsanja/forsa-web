@@ -1,9 +1,10 @@
 const RegularCard = () => {
   return (
-    <div className="col-span-2 space-y-2 md:space-y-4 ">
+    <div className=" space-y-2 md:space-y-4 ">
       <div className="flex flex-row-reverse space-y-4 md:space-y-4 md:flex-col items-center md:items-start space-x-1 md:space-x-0">
-        <div className="h-full md:w-full aspect-w-16 aspect-h-9 w-[30%]">
+        <div className="h-full md:w-full aspect-w-16 w-[30%] md:w-full aspect-h-9 object-cover object-center">
           <img
+            className="h-full w-full"
             src="https://news.harvard.edu/wp-content/uploads/2021/10/20211028_cop26_wfire-1350x759.jpg"
             alt="gambar"
           />

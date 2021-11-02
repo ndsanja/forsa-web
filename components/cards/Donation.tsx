@@ -3,8 +3,9 @@ import React from "react";
 const Donation = () => {
   return (
     <div className="flex flex-col space-y-4 border">
-      <div className="h-full w-full aspect-w-16 aspect-h-9">
+      <div className="h-full w-full aspect-w-16 aspect-h-9 object-cover object-center">
         <img
+          className="w-full h-full"
           src="https://media.istockphoto.com/photos/diverse-group-of-elementary-school-kids-go-back-to-school-wearing-picture-id1270794789?b=1&k=20&m=1270794789&s=170667a&w=0&h=bWb7fDf8b3OuTBEctKb4mHqI3oVuWfbAFY4By_3GLvc="
           alt="gambar"
         />
@@ -48,7 +49,7 @@ const Donation = () => {
           </div>
         </div>
         <div className="py-4 w-full flex justify-center">
-          <button className="px-4 py-2 bg-green-500 text-label-small text-white font-dinamit-light">
+          <button className="px-4 py-2 bg-green-500 text-label-large text-white font-dinamit-light">
             Donasi Sekarang
           </button>
         </div>

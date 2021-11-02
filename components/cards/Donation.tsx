@@ -32,7 +32,7 @@ const Donation = () => {
             dolores pariatur repudiandae.
           </p>
         </div>
-        <div className="space-y-2 font-dinamit-light text-body-medium border-t border-b py-4">
+        <div className="space-y-2 font-dinamit-light text-body-small border-t border-b py-4">
           <div className="flex justify-between">
             <p>Rp 24,700,111.00</p>
             <p>18.30%</p>

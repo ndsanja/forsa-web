@@ -21,7 +21,7 @@ const Home: NextPage = () => {
             <div className="col-span-2 md:col-span-1">
               <RegularCard />
             </div>
-            <div className="col-span-2">
+            <div className="col-span-2 -mx-5 md:mx-0">
               <AlumniMengajar />
             </div>
           </div>

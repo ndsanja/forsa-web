@@ -8,7 +8,7 @@ import AlumniMengajar from "../components/AlumniMengajar";
 
 const Home: NextPage = () => {
   return (
-    <div className="container max-w-screen-3xl border border-red-500 w-screen bg-white pb-40 space-y-14 md:space-y-16 lg:space-y-24">
+    <div className="container max-w-screen-3xl border w-screen bg-white pb-40 space-y-14 md:space-y-16 lg:space-y-24">
       <div className="mx-5 md:mx-12 lg:mx-20 ">
         <div className="flex flex-col md:flex-row-reverse space-y-16 md:space-y-0">
           <div className="md:w-[70%] grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-14 ">

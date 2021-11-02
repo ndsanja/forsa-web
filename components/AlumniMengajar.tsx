@@ -14,9 +14,9 @@ const AlumniMengajar = () => {
           Lets Join With Us
         </h2>
       </div>
-      <div className="font-dinamit-extralight text-label-large space-x-8">
-        <button className="px-6 py-3 border border-black">More Info</button>
-        <button className="px-6 py-3 border border-black">E - Learning</button>
+      <div className="font-dinamit-extralight text-label-large space-x-4 md:space-x-8">
+        <button className="px-4 py-2 border border-black">More Info</button>
+        <button className="px-4 py-2 border border-black">E - Learning</button>
       </div>
     </div>
   );

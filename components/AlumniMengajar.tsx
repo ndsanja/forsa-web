@@ -11,7 +11,7 @@ const AlumniMengajar = () => {
           FORSA Alumni Mengajar
         </h1>
         <h2 className="font-dinamit-extralight text-title-large underline">
-          Lets Join With Us
+          Lets Join Us
         </h2>
       </div>
       <div className="font-dinamit-extralight text-label-large space-x-4 md:space-x-8">

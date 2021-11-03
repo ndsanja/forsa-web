@@ -21,11 +21,11 @@ const Donation = () => {
           </div>
         </div>
         <div className="pb-2 space-y-3">
-          <h1 className="font-nocturno-light text-title-large">
+          <h1 className="font-nocturno-light text-title-medium sm:text-title-large">
             Donasi Untuk Almamater: Bantu FORSA untuk selalu menebar manfaat
             untuk almamater
           </h1>
-          <p className="font-dinamit-light text-body-medium">
+          <p className="font-dinamit-light text-body-small` sm:text-body-medium">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minima
             adipisci, recusandae animi aut magni earum incidunt praesentium
             veniam neque deleniti dignissimos ullam cum labore repellat harum

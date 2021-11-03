@@ -18,7 +18,7 @@ const RegularCard = () => {
               <h6 className="font-dinamit-medium text-[0.5rem] sm:text-label-small tracking-widest uppercase">
                 Health
               </h6>
-              <div className="h-[2px] w-[16px] lg:w-[18px] bg-red-600"></div>
+              <div className="h-[2px] w-[16px] lg:w-[18px] bg-red-800"></div>
             </div>
             <h1 className="font-nocturno-regular text-title-medium sm:text-title-large">
               Do we need to draw you a picture? Yes, or maybe a satiric cartoon

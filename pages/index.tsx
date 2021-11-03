@@ -6,11 +6,15 @@ import SectionTitle from "../components/SectionTitle";
 import Donation from "../components/cards/Donation";
 import Logo from "../components/Logo";
 import AlumniMengajar from "../components/AlumniMengajar";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
-    <div className="container max-w-screen-3xl w-screen bg-white pb-40 ">
-      <div className="bg-white h-14 w-full md:hidden"></div>
+    <div className="container max-w-screen-3xl w-screen bg-white pb-40 relative ">
+      <div className="mx-[7%] md:mx-0 md:fixed md:left-0 md:top-0 md:right-0 md:max-w-[7%] z-30">
+        <Header />
+      </div>
+
       <div className="pb-20 absolute top-0 z-10 md:hidden mx-[7%] md:mx-12 lg:mx-20 ">
         <Logo />
       </div>

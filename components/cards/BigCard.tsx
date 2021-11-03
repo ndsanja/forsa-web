@@ -15,7 +15,7 @@ const BigCard = () => {
             <h6 className="font-dinamit-medium sm:text-label-small tracking-widest uppercase">
               WORLD
             </h6>
-            <div className="h-[2px] w-[16px] lg:w-[18px] bg-red-600"></div>
+            <div className="h-[2px] w-[16px] lg:w-[18px] bg-red-800"></div>
           </div>
 
           <h1 className="font-nocturno-regular text-headline-small sm:text-headline-medium">

@@ -8,7 +8,7 @@ const Events = () => {
           alt="gambar"
         />
       </div>
-      <h1 className="mb-2 md:mb-0 font-dinamit-extralight text-title-medium text-yellow-500 hover:text-yellow-600 hover:underline">
+      <h1 className="mb-2 md:mb-0 font-dinamit-extralight text-title-medium text-red-800 hover:text-red-700 hover:underline">
         Kompetisi Futsal Antar Angkatan FORSA 2021
       </h1>
       <h6 className="font-dinamit-medium text-label-medium">20.00 WIB</h6>

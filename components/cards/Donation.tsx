@@ -5,7 +5,7 @@ const Donation = () => {
     <div className="flex flex-col space-y-4 border">
       <div className="h-full w-full aspect-w-16 aspect-h-9 object-cover object-center">
         <img
-          className="w-full h-full"
+          className="object-cover object-center"
           src="https://media.istockphoto.com/photos/diverse-group-of-elementary-school-kids-go-back-to-school-wearing-picture-id1270794789?b=1&k=20&m=1270794789&s=170667a&w=0&h=bWb7fDf8b3OuTBEctKb4mHqI3oVuWfbAFY4By_3GLvc="
           alt="gambar"
         />

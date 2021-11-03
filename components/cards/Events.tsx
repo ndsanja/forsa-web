@@ -1,8 +1,9 @@
 const Events = () => {
   return (
     <div className="flex flex-col space-y-2 min-w-[70vw] md:min-w-full md:w-full py-8 md:py-0">
-      <div className="h-full w-full aspect-w-16 aspect-h-9">
+      <div className="h-full w-full aspect-w-1 aspect-h-1">
         <img
+          className="object-center object-cover"
           src="https://news.harvard.edu/wp-content/uploads/2021/10/Stefanie-Stantcheva_headshot_signed-3_thumbnail_2500-500x500.jpg"
           alt="gambar"
         />

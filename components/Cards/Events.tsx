@@ -11,10 +11,13 @@ const Events = () => {
       <h1 className="mb-2 md:mb-0 font-dinamit-extralight text-title-medium text-red-800 hover:text-red-700 hover:underline">
         Kompetisi Futsal Antar Angkatan FORSA 2021
       </h1>
-      <h6 className="font-dinamit-medium text-label-medium">20.00 WIB</h6>
-      <p className="font-dinamit-light text-label-small">
-        SMA Negeri 1 Srengat
-      </p>
+      <h6 className="font-dinamit-medium text-label-medium">1 Januari 2022</h6>
+      <div className="">
+        <p className="font-dinamit-light text-label-small">
+          SMA Negeri 1 Srengat
+        </p>
+        <p className="font-dinamit-light text-label-small">20.00 WIB</p>
+      </div>
     </div>
   );
 };

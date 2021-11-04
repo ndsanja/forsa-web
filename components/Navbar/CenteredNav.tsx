@@ -4,7 +4,7 @@ import { MdSearch } from "react-icons/md";
 import { useState } from "react";
 import Link from "next/link";
 
-const Navbar = () => {
+const CenteredNav = () => {
   const [toogle, setToogle] = useState(true);
 
   const navToogle = () => {
@@ -12,13 +12,20 @@ const Navbar = () => {
   };
 
   return (
-    <div className="mx-[7%] md:mx-0 md:fixed md:left-0 md:top-0 md:right-0 md:max-w-[7%] z-30">
+    <div className="mx-[7%] md:mx-0 fixed left-0 top-0 right-0 z-30">
       {toogle ? (
-        <div className="w-full flex justify-end md:justify-center items-center py-4 cursor-pointer">
+        <div className="w-full flex flex-row-reverse md:flex-row items-center py-4 cursor-pointer md:px-[2%] bg-white">
           <MdOutlineManageSearch
             onClick={navToogle}
             className="w-7 h-7 lg:h-9 lg:w-9 "
           />
+          <div className="flex-1 flex justify-center  pl-7 md:pr-7 lg:pr-9">
+            <Link href="/">
+              <a className="font-nocturno-semibold text-yellow-700 text-title-medium lg:text-title-large">
+                We Are Forsa
+              </a>
+            </Link>
+          </div>
         </div>
       ) : (
         <div className="fixed left-0 right-0 top-0 bottom-0 w-screen h-screen bg-[#A51C30] lg:mx-0 z-30">
@@ -94,4 +101,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default CenteredNav;

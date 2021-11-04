@@ -1,6 +1,6 @@
 import SmallCard from "../Cards/SmallCard";
 
-const Test = () => {
+const General = () => {
   return (
     <div>
       <div>
@@ -138,4 +138,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default General;

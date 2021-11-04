@@ -15,7 +15,7 @@ const SinglePost = () => {
         <div className="h-full w-full aspect-w-16 aspect-h-9 mb-[0.5%]">
           <img
             className="object-cover object-center"
-            src="https://news.harvard.edu/wp-content/uploads/2021/10/101321_ESPP_028-1350x900.jpg"
+            src="https://news.harvard.edu/wp-content/uploads/2021/10/20211028_cop26_wfire-1350x759.jpg"
             alt="Gambar"
           />
         </div>
@@ -36,9 +36,9 @@ const SinglePost = () => {
           multidisciplinary approach to untangling issues, solutions
         </h1>
         <div className="flex justify-between items-center md:items-start">
-          <div className="md:w-44 flex-1 md:flex-none">
-            <div className="flex items-start space-x-[2%] justify-between md:py-[5%] md:border-t md:border-b">
-              <div className="hidden md:block uppercase font-dinamit-semibold tracking-widest text-[8px]">
+          <div className="">
+            <div className="flex flex-col items-start space-y-1 py-[5%] border-t border-b">
+              <div className="uppercase font-dinamit-semibold tracking-widest text-[8px]">
                 by
               </div>
               <div className="flex flex-col space-y-[0.3%] ">
@@ -50,8 +50,8 @@ const SinglePost = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-start space-x-[2%] justify-between md:py-[5%] md:border-b">
-              <div className="hidden md:block uppercase font-dinamit-semibold tracking-widest text-[8px]">
+            <div className="flex flex-col items-start space-y-1 py-[5%] border-b">
+              <div className="uppercase font-dinamit-semibold tracking-widest text-[8px]">
                 date
               </div>
               <div className="flex flex-col space-y-[0.3%]">
@@ -61,7 +61,7 @@ const SinglePost = () => {
               </div>
             </div>
           </div>
-          <div className="flex space-x-4 items-center">
+          {/* <div className="flex space-x-4 items-center">
             <p className="hidden md:block uppercase font-dinamit-semibold tracking-widest text-[8px]">
               share
             </p>
@@ -69,10 +69,10 @@ const SinglePost = () => {
             <div>B</div>
             <div>C</div>
             <div>D</div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="max-w-2xl text-body-medium sm:text-body-large font-nocturno-regular tracking-wide leading-relaxed mt-[6%]">
+      <div className="max-w-2xl text-body-medium sm:text-body-large font-nocturno-regular tracking-wide leading-relaxed mt-[8%]">
         <p>
           For Emilly Fan, concentrating in Environmental Science and Public
           Policy feels urgent and consequential. It brought her all the way from

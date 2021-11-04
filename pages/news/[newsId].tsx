@@ -1,18 +1,14 @@
 import React from "react";
-import Layout from "../../components/Layout";
-import Logo from "../../components/Logo";
-import RightPost from "../../components/SinglePost/RightPost";
+import CenteredLayout from "../../components/Layout/CenteredLayout";
+import NewsSingle from "../../components/SinglePost/News";
 
 const SingleNews = () => {
   return (
-    <Layout>
-      <div className="pt-[18%] md:pt-20 pb-40 px-[7%]">
-        <div className="absolute top-0 z-10">
-          <Logo />
-        </div>
-        <RightPost />
+    <CenteredLayout>
+      <div className="pt-[20%] md:pt-[12%] pb-40 px-[7%]">
+        <NewsSingle />
       </div>
-    </Layout>
+    </CenteredLayout>
   );
 };
 

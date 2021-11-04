@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <>
+    <div className="mx-[7%] md:mx-0 md:fixed md:left-0 md:top-0 md:right-0 md:max-w-[7%] z-30">
       {toogle ? (
         <div className="w-full flex justify-end md:justify-center items-center py-4 cursor-pointer">
           <MdOutlineManageSearch
@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 

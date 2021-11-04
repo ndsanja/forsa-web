@@ -12,7 +12,7 @@ const BigCard = () => {
       <div className="grid xl:grid-cols-2  space-y-4 md:space-y-0">
         <div className="space-y-2 mx-[7%] md:ml-0 md:mr-[12%]">
           <div className="flex space-x-2 items-center">
-            <h6 className="font-dinamit-medium sm:text-label-small tracking-widest uppercase">
+            <h6 className="font-dinamit-medium text-[0.6rem] sm:text-label-small tracking-widest uppercase">
               WORLD
             </h6>
             <div className="h-[2px] w-[16px] lg:w-[18px] bg-red-800"></div>

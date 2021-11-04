@@ -1,4 +1,4 @@
-import MediumCard from "../../components/Cards/MediumCard";
+import RegularCard from "../../components/Cards/RegularCard";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
@@ -22,7 +22,7 @@ const index = () => {
                   <div>
                     <Link href="#">
                       <a className="font-dinamit-light text-body-large">
-                        Alumni
+                        Talkshow
                       </a>
                     </Link>
                   </div>
@@ -32,7 +32,7 @@ const index = () => {
                   <div>
                     <Link href="#">
                       <a className="font-dinamit-light text-body-large">
-                        Forsa
+                        Workshop
                       </a>
                     </Link>
                   </div>
@@ -42,7 +42,7 @@ const index = () => {
                   <div>
                     <Link href="#">
                       <a className="font-dinamit-light text-body-large">
-                        SMANGAT
+                        Kompetisi
                       </a>
                     </Link>
                   </div>
@@ -52,7 +52,7 @@ const index = () => {
                   <div>
                     <Link href="#">
                       <a className="font-dinamit-light text-body-large">
-                        Inspiratif
+                        Sosial
                       </a>
                     </Link>
                   </div>
@@ -62,7 +62,7 @@ const index = () => {
                   <div>
                     <Link href="#">
                       <a className="font-dinamit-light text-body-large">
-                        Acara
+                        Temu Kangen
                       </a>
                     </Link>
                   </div>
@@ -74,27 +74,22 @@ const index = () => {
             <div className="flex flex-col ">
               <div className="flex flex-col  max-w-screen-lg mb-[10%] lg:mb-[20%]">
                 <h3 className="font-dinamit-medium text-label-small md:text-label-large uppercase tracking-wider text-blue-800 mb-[1%]">
-                  Arsip Berita
+                  Arsip Guyub Rukun
                 </h3>
                 <h1 className="font-nocturno-light text-headline-medium md:text-display-small ">
-                  Daftar Semua Berita
+                  Daftar Semua Guyub Rukun
                 </h1>
               </div>
             </div>
-            <div className="flex flex-col space-y-8">
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
+            <div className="grid md:grid-cols-2 gap-8">
+              <RegularCard />
+              <RegularCard />
+              <RegularCard />
+              <RegularCard />
+              <RegularCard />
+              <RegularCard />
+              <RegularCard />
+              <RegularCard />
             </div>
           </div>
         </div>

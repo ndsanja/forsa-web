@@ -16,9 +16,6 @@ const Events = () => {
         <p className="font-dinamit-light text-label-small">
           SMA Negeri 1 Srengat
         </p>
-        <p className="font-dinamit-light text-label-small">
-          SMA Negeri 1 Srengat
-        </p>
         <p className="font-dinamit-light text-label-small">20.00 WIB</p>
       </div>
     </div>

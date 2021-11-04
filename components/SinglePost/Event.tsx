@@ -54,8 +54,8 @@ const Event = () => {
               <h1 className="font-dinamit-light text-title-medium md:text-title-large leading-normal  mb-[10%]">
                 Turnamen FUTSAL antar angkatan FORSA dan BAZAR UKM
               </h1>
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start">
-                <div className=" ">
+              <div className="flex justify-between items-center md:items-start">
+                <div className="">
                   <div className="flex flex-col items-start space-y-1 py-[5%] border-t border-b">
                     <div className="uppercase font-dinamit-semibold tracking-widest text-[8px]">
                       by

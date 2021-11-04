@@ -36,10 +36,10 @@ const Home: NextPage = () => {
                 <div className="pb-20 hidden md:block">
                   <Logo />
                 </div>
-                <h3 className="font-dinamit-medium uppercase tracking-widest text-label-medium">
+                <h3 className="font-dinamit-medium uppercase tracking-widest text-label-medium mb-4 md:mb-0">
                   forsa Events
                 </h3>
-                <div className="flex md:flex-col space-x-10 md:space-x-0  md:space-y-10 overflow-x-scroll md:overflow-x-hidden w-full">
+                <div className="flex pb-8 md:pb-0 md:flex-col space-x-10 md:space-x-0  md:space-y-10 overflow-x-scroll md:overflow-x-hidden w-full">
                   <Events />
                   <Events />
                   <Events />

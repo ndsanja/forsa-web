@@ -4,7 +4,7 @@ import { MdSearch } from "react-icons/md";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [toogle, setToogle] = useState(false);
+  const [toogle, setToogle] = useState(true);
 
   const navToogle = () => {
     setToogle(!toogle);

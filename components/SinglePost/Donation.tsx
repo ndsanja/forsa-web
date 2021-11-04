@@ -3,9 +3,9 @@ import SmallCard from "../Cards/SmallCard";
 const Donation = () => {
   return (
     <div>
-      <div className="flex flex-col-reverse md:flex-row">
-        <div className="lg:w-[35%] pt-[50%]">
-          <div className="hidden lg:block pr-[15%] pt-[30%]">
+      <div className="flex flex-col-reverse lg:flex-row">
+        <div className="lg:w-[35%] pt-[10%] lg:pt-[30%]">
+          <div className="lg:pr-[15%] ">
             <h1 className="uppercase text-blue-800 font-dinamit-regular tracking-widest text-label-medium mb-[5%]">
               Donasi Lainya
             </h1>

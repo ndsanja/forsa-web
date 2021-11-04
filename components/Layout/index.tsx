@@ -1,5 +1,6 @@
 import React, { Children, ReactNode } from "react";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 type LayoutProps = {
   children: ReactNode;
@@ -11,6 +12,7 @@ const index = (props: LayoutProps) => {
     <>
       <Navbar />
       {children}
+      <Footer />
     </>
   );
 };

@@ -56,8 +56,8 @@ const CenteredNav = () => {
                 </div>
                 <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
                   <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
-                  <Link href="/news">
-                    <a className="group-hover:text-yellow-200">News</a>
+                  <Link href="/berita">
+                    <a className="group-hover:text-yellow-200">Berita</a>
                   </Link>
                 </div>
                 <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">

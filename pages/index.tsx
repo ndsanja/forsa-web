@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div className="container max-w-screen-3xl w-screen bg-white pb-40 relative ">
       <Layout>
-        <div className="pb-20 absolute top-0 z-10 md:hidden mx-[7%] md:mx-12 lg:mx-20 ">
+        <div className="absolute top-0 z-10 md:hidden mx-[7%] md:mx-[12%] ">
           <Logo />
         </div>
         <div className="space-y-14 md:space-y-16 lg:space-y-24">

@@ -1,15 +1,19 @@
 import React from "react";
-import SinglePost from "../../components/SinglePost";
 import Layout from "../../components/Layout";
+import Logo from "../../components/Logo";
+import RightPost from "../../components/SinglePost/RightPost";
 
-const SinleNews = () => {
+const SingleNews = () => {
   return (
     <Layout>
-      <div className="md:pt-20 pb-40 px-[7%]">
-        <SinglePost />
+      <div className="pt-[18%] md:pt-20 pb-40 px-[7%]">
+        <div className="absolute top-0 z-10">
+          <Logo />
+        </div>
+        <RightPost />
       </div>
     </Layout>
   );
 };
 
-export default SinleNews;
+export default SingleNews;

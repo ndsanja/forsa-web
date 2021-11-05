@@ -1,8 +1,8 @@
-import { Event } from "../../utils/PropsType";
+import { Event as EventProps } from "../../utils/PropsType";
 import Link from "next/link";
 
 type props = {
-  Events: Event[];
+  Events: EventProps[];
 };
 
 const Events = ({ Events }: props) => {

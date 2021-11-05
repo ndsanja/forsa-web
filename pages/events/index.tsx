@@ -2,6 +2,7 @@ import Events from "../../components/Cards/Events";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
+import { events } from "../../utils/data/events";
 
 const index = () => {
   return (
@@ -82,14 +83,7 @@ const index = () => {
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <Events />
-              <Events />
-              <Events />
-              <Events />
-              <Events />
-              <Events />
-              <Events />
-              <Events />
+              <Events Events={events} />
             </div>
           </div>
         </div>

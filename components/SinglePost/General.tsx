@@ -1,4 +1,4 @@
-import SmallCard from "../Cards/SmallCard";
+import NewsSmallCard from "../Cards/News/SmallCard";
 
 const General = () => {
   return (
@@ -92,16 +92,16 @@ const General = () => {
               </h1>
               <div className="block divide-y divide-gray-200  ">
                 <div className="py-[3%] ">
-                  <SmallCard />
+                  <NewsSmallCard />
                 </div>
                 <div className="py-[3%] ">
-                  <SmallCard />
+                  <NewsSmallCard />
                 </div>
                 <div className="py-[3%] ">
-                  <SmallCard />
+                  <NewsSmallCard />
                 </div>
                 <div className="py-[3%] ">
-                  <SmallCard />
+                  <NewsSmallCard />
                 </div>
               </div>
             </div>

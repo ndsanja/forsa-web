@@ -8,6 +8,7 @@ import Logo from "../components/Logo";
 import AlumniMengajar from "../components/AlumniMengajar";
 import Layout from "../components/Layout";
 import { events } from "../utils/data/events";
+import { donations } from "../utils/data/donations";
 
 const Home: NextPage = () => {
   return (
@@ -50,10 +51,9 @@ const Home: NextPage = () => {
             <SectionTitle sectionTitle="Donations" />
             <div className="grid md:grid-cols-2 lg:grid-cols-3 mx-[7%] gap-8 lg:gap-14">
               <div className="md:col-span-2 lg:col-span-1">
-                <Donation />
+                <Donation Donations={donations.slice(0, 1)} />
               </div>
-              <Donation />
-              <Donation />
+              <Donation Donations={donations.slice(1, 3)} />
             </div>
             <SectionTitle sectionTitle="Expo Campus" />
             <div className="grid md:grid-cols-2 lg:grid-cols-3  mx-[7%]  gap-8 lg:gap-14">

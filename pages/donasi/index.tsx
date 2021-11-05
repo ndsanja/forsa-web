@@ -2,6 +2,7 @@ import Donation from "../../components/Cards/Donation";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
+import { donations } from "../../utils/data/donations";
 
 const index = () => {
   return (
@@ -62,10 +63,7 @@ const index = () => {
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <Donation />
-              <Donation />
-              <Donation />
-              <Donation />
+              <Donation Donations={donations} />
             </div>
           </div>
         </div>

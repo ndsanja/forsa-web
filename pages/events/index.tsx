@@ -1,4 +1,4 @@
-import Events from "../../components/Cards/Events";
+import EventsRegularCard from "../../components/Cards/Events/RegularCard";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
@@ -83,7 +83,7 @@ const index = () => {
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <Events Events={events} />
+              <EventsRegularCard Events={events} />
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import SmallCard from "../Cards/SmallCard";
+import DonationsSmallCard from "../Cards/Donations/SmallCard";
 
 const Donation = () => {
   return (
@@ -11,16 +11,16 @@ const Donation = () => {
             </h1>
             <div className="block divide-y divide-gray-200  ">
               <div className="py-[3%] ">
-                <SmallCard />
+                <DonationsSmallCard />
               </div>
               <div className="py-[3%] ">
-                <SmallCard />
+                <DonationsSmallCard />
               </div>
               <div className="py-[3%] ">
-                <SmallCard />
+                <DonationsSmallCard />
               </div>
               <div className="py-[3%] ">
-                <SmallCard />
+                <DonationsSmallCard />
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-const MediumCard = () => {
+const NewsMediumCard = () => {
   return (
     <div className=" space-y-2  ">
       <div className="flex flex-row-reverse space-y-4  items-center ">
@@ -36,4 +36,4 @@ const MediumCard = () => {
   );
 };
 
-export default MediumCard;
+export default NewsMediumCard;

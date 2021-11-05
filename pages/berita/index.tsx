@@ -1,4 +1,4 @@
-import MediumCard from "../../components/Cards/MediumCard";
+import NewsMediumCard from "../../components/Cards/News/MediumCard";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
@@ -82,19 +82,19 @@ const index = () => {
               </div>
             </div>
             <div className="flex flex-col space-y-8">
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
-              <MediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
+              <NewsMediumCard />
             </div>
           </div>
         </div>

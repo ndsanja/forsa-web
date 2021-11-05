@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
-import RegularCard from "../components/Cards/RegularCard";
-import Events from "../components/Cards/Events";
-import BigCard from "../components/Cards/BigCard";
+import NewsRegularCard from "../components/Cards/News/RegularCard";
+import EventsRegularCard from "../components/Cards/Events/RegularCard";
+import NewsBigCard from "../components/Cards/News/BigCard";
 import SectionTitle from "../components/SectionTitle";
-import Donation from "../components/Cards/Donation";
+import DonationRegularCard from "../components/Cards/Donations/RegularCard";
 import Logo from "../components/Logo";
 import AlumniMengajar from "../components/AlumniMengajar";
 import Layout from "../components/Layout";
@@ -23,13 +23,13 @@ const Home: NextPage = () => {
               <div className="flex flex-col md:flex-row-reverse space-y-16 md:space-y-0">
                 <div className="md:w-[65%] grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-14 ">
                   <div className="col-span-2 ">
-                    <BigCard />
+                    <NewsBigCard />
                   </div>
                   <div className="col-span-2 md:col-span-1">
-                    <RegularCard />
+                    <NewsRegularCard />
                   </div>
                   <div className="col-span-2 md:col-span-1">
-                    <RegularCard />
+                    <NewsRegularCard />
                   </div>
                   <div className="col-span-2 -mx-5 md:mx-0">
                     <AlumniMengajar />
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                     forsa Events
                   </h3>
                   <div className="flex pb-8 md:pb-0 md:flex-col space-x-10 md:space-x-0  md:space-y-10 overflow-x-scroll md:overflow-x-hidden w-full">
-                    <Events Events={events} />
+                    <EventsRegularCard Events={events} />
                   </div>
                 </div>
               </div>
@@ -51,30 +51,30 @@ const Home: NextPage = () => {
             <SectionTitle sectionTitle="Donations" />
             <div className="grid md:grid-cols-2 lg:grid-cols-3 mx-[7%] gap-8 lg:gap-14">
               <div className="md:col-span-2 lg:col-span-1">
-                <Donation Donations={donations.slice(0, 1)} />
+                <DonationRegularCard Donations={donations.slice(0, 1)} />
               </div>
-              <Donation Donations={donations.slice(1, 3)} />
+              <DonationRegularCard Donations={donations.slice(1, 3)} />
             </div>
             <SectionTitle sectionTitle="Expo Campus" />
             <div className="grid md:grid-cols-2 lg:grid-cols-3  mx-[7%]  gap-8 lg:gap-14">
               <div className="md:col-span-2 lg:col-span-1">
-                <RegularCard />
+                <NewsRegularCard />
               </div>
-              <RegularCard />
-              <RegularCard />
+              <NewsRegularCard />
+              <NewsRegularCard />
             </div>
             <SectionTitle sectionTitle="Guyub Rukun" />
             <div className="grid md:grid-cols-2 lg:grid-cols-3  mx-[7%]  gap-8 lg:gap-14">
               <div className="md:col-span-2 lg:col-span-1">
-                <RegularCard />
+                <NewsRegularCard />
               </div>
-              <RegularCard />
-              <RegularCard />
+              <NewsRegularCard />
+              <NewsRegularCard />
               <div className="md:col-span-2 lg:col-span-1">
-                <RegularCard />
+                <NewsRegularCard />
               </div>
-              <RegularCard />
-              <RegularCard />
+              <NewsRegularCard />
+              <NewsRegularCard />
             </div>
           </div>
         </div>

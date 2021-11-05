@@ -1,11 +1,10 @@
-import { Donation as DonationProps } from "../../utils/PropsType";
+import { Donation as DonationProps } from "../../../utils/PropsType";
 import Link from "next/link";
-import { donations } from "../../utils/data/donations";
 
 type props = {
   Donations: DonationProps[];
 };
-const Donation = ({ Donations }: props) => {
+const DonationRegularCard = ({ Donations }: props) => {
   return (
     <>
       {Donations.map((donation) => (
@@ -67,4 +66,4 @@ const Donation = ({ Donations }: props) => {
   );
 };
 
-export default Donation;
+export default DonationRegularCard;

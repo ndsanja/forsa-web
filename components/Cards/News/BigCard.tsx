@@ -1,4 +1,4 @@
-const BigCard = () => {
+const NewsBigCard = () => {
   return (
     <div className="col-span-2 space-y-6 mx-[-8%] md:ml-0 md:mr-[-12.5%]">
       <div className="h-full w-full aspect-w-16 aspect-h-9">
@@ -31,4 +31,4 @@ const BigCard = () => {
   );
 };
 
-export default BigCard;
+export default NewsBigCard;

@@ -1,11 +1,11 @@
-import { Event as EventProps } from "../../utils/PropsType";
+import { Event as EventProps } from "../../../utils/PropsType";
 import Link from "next/link";
 
 type props = {
   Events: EventProps[];
 };
 
-const Events = ({ Events }: props) => {
+const EventsRegularCard = ({ Events }: props) => {
   return (
     <>
       {Events.map((Event) => (
@@ -40,4 +40,4 @@ const Events = ({ Events }: props) => {
   );
 };
 
-export default Events;
+export default EventsRegularCard;

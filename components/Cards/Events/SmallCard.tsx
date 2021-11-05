@@ -1,4 +1,4 @@
-const SmallCard = () => {
+const EventsSmallCard = () => {
   return (
     <div className="flex space-x-2 items-center">
       <h1 className="font-nocturno-regular text-title-medium flex-1">
@@ -17,4 +17,4 @@ const SmallCard = () => {
   );
 };
 
-export default SmallCard;
+export default EventsSmallCard;

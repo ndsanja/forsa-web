@@ -1,4 +1,4 @@
-const RegularCard = () => {
+const NewsRegularCard = () => {
   return (
     <div className=" space-y-2 md:space-y-4 ">
       <div className="flex flex-row-reverse space-y-4 md:space-y-4 md:flex-col items-center md:items-start md:space-x-0">
@@ -36,4 +36,4 @@ const RegularCard = () => {
   );
 };
 
-export default RegularCard;
+export default NewsRegularCard;

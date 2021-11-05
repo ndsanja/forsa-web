@@ -1,4 +1,4 @@
-import Donation from "../../components/Cards/Donation";
+import DonationRegularCard from "../../components/Cards/Donations/RegularCard";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
@@ -63,7 +63,7 @@ const index = () => {
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <Donation Donations={donations} />
+              <DonationRegularCard Donations={donations} />
             </div>
           </div>
         </div>

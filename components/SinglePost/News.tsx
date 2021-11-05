@@ -1,5 +1,5 @@
 import React from "react";
-import MediumCard from "../Cards/MediumCard";
+import NewsMediumCard from "../Cards/News/MediumCard";
 
 const SinglePost = () => {
   return (
@@ -98,10 +98,10 @@ const SinglePost = () => {
       <div className="max-w-2xl font-dinamit-regular text-label-small sm:text-label-large  mt-[8%]">
         <p className="uppercase text-blue-800">Berita Lainya </p>
         <div className="mt:1 md:mt-2 space-y-2">
-          <MediumCard />
-          <MediumCard />
-          <MediumCard />
-          <MediumCard />
+          <NewsMediumCard />
+          <NewsMediumCard />
+          <NewsMediumCard />
+          <NewsMediumCard />
         </div>
       </div>
     </div>

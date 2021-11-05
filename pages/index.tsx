@@ -7,6 +7,7 @@ import Donation from "../components/Cards/Donation";
 import Logo from "../components/Logo";
 import AlumniMengajar from "../components/AlumniMengajar";
 import Layout from "../components/Layout";
+import { events } from "../utils/data/events";
 
 const Home: NextPage = () => {
   return (
@@ -41,9 +42,7 @@ const Home: NextPage = () => {
                     forsa Events
                   </h3>
                   <div className="flex pb-8 md:pb-0 md:flex-col space-x-10 md:space-x-0  md:space-y-10 overflow-x-scroll md:overflow-x-hidden w-full">
-                    <Events />
-                    <Events />
-                    <Events />
+                    <Events Events={events} />
                   </div>
                 </div>
               </div>
@@ -56,7 +55,7 @@ const Home: NextPage = () => {
               <Donation />
               <Donation />
             </div>
-            <SectionTitle sectionTitle="Expo Campuss" />
+            <SectionTitle sectionTitle="Expo Campus" />
             <div className="grid md:grid-cols-2 lg:grid-cols-3  mx-[7%]  gap-8 lg:gap-14">
               <div className="md:col-span-2 lg:col-span-1">
                 <RegularCard />

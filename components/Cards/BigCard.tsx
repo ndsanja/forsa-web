@@ -1,5 +1,3 @@
-import React from "react";
-
 const BigCard = () => {
   return (
     <div className="col-span-2 space-y-6 mx-[-8%] md:ml-0 md:mr-[-12.5%]">

@@ -6,7 +6,7 @@ const NewsBigCard = () => {
       <div className="h-full w-full aspect-w-16 aspect-h-9">
         <Image
           layout="fill"
-          src="https://news.harvard.edu/wp-content/uploads/2021/10/101321_ESPP_028-1600x900.jpg"
+          src="https://images.unsplash.com/photo-1583946099379-f9c9cb8bc030?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29yb25hfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
           alt="gambar"
         />
       </div>

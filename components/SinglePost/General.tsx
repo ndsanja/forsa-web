@@ -1,4 +1,4 @@
-import NewsSmallCard from "../Cards/News/SmallCard";
+// import NewsSmallCard from "../Cards/News/SmallCard";
 
 const General = () => {
   return (
@@ -90,7 +90,7 @@ const General = () => {
               <h1 className="uppercase text-blue-800 font-dinamit-regular tracking-widest text-label-medium mb-[5%]">
                 Trending
               </h1>
-              <div className="block divide-y divide-gray-200  ">
+              {/* <div className="block divide-y divide-gray-200  ">
                 <div className="py-[3%] ">
                   <NewsSmallCard />
                 </div>
@@ -103,7 +103,7 @@ const General = () => {
                 <div className="py-[3%] ">
                   <NewsSmallCard />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="md:w-[65%] mt-[8%] md:mt-0">

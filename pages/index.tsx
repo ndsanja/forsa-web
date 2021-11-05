@@ -9,6 +9,7 @@ import AlumniMengajar from "../components/AlumniMengajar";
 import Layout from "../components/Layout";
 import { events } from "../utils/data/events";
 import { donations } from "../utils/data/donations";
+import { news } from "../utils/data/news";
 
 const Home: NextPage = () => {
   return (
@@ -23,14 +24,12 @@ const Home: NextPage = () => {
               <div className="flex flex-col md:flex-row-reverse space-y-16 md:space-y-0">
                 <div className="md:w-[65%] grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-14 ">
                   <div className="col-span-2 ">
-                    <NewsBigCard />
+                    <NewsBigCard News={news.slice(0, 1)} />
                   </div>
-                  <div className="col-span-2 md:col-span-1">
-                    <NewsRegularCard />
-                  </div>
-                  <div className="col-span-2 md:col-span-1">
-                    <NewsRegularCard />
-                  </div>
+                  <NewsRegularCard
+                    News={news.slice(1, 3)}
+                    className="col-span-2 md:col-span-1"
+                  />
                   <div className="col-span-2 -mx-5 md:mx-0">
                     <AlumniMengajar />
                   </div>
@@ -57,24 +56,27 @@ const Home: NextPage = () => {
             </div>
             <SectionTitle sectionTitle="Expo Campus" />
             <div className="grid md:grid-cols-2 lg:grid-cols-3  mx-[7%]  gap-8 lg:gap-14">
-              <div className="md:col-span-2 lg:col-span-1">
-                <NewsRegularCard />
-              </div>
-              <NewsRegularCard />
-              <NewsRegularCard />
+              <NewsRegularCard
+                News={news.slice(0, 1)}
+                className="md:col-span-2 lg:col-span-1"
+              />
+
+              <NewsRegularCard News={news.slice(1, 3)} />
             </div>
             <SectionTitle sectionTitle="Guyub Rukun" />
             <div className="grid md:grid-cols-2 lg:grid-cols-3  mx-[7%]  gap-8 lg:gap-14">
-              <div className="md:col-span-2 lg:col-span-1">
-                <NewsRegularCard />
-              </div>
-              <NewsRegularCard />
-              <NewsRegularCard />
-              <div className="md:col-span-2 lg:col-span-1">
-                <NewsRegularCard />
-              </div>
-              <NewsRegularCard />
-              <NewsRegularCard />
+              <NewsRegularCard
+                News={news.slice(0, 1)}
+                className="md:col-span-2 lg:col-span-1"
+              />
+
+              <NewsRegularCard News={news.slice(1, 3)} />
+              <NewsRegularCard
+                News={news.slice(0, 1)}
+                className="md:col-span-2 lg:col-span-1"
+              />
+
+              <NewsRegularCard News={news.slice(1, 3)} />
             </div>
           </div>
         </div>

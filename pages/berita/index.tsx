@@ -2,6 +2,7 @@ import NewsMediumCard from "../../components/Cards/News/MediumCard";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
+import { news } from "../../utils/data/news";
 
 const index = () => {
   return (
@@ -82,19 +83,7 @@ const index = () => {
               </div>
             </div>
             <div className="flex flex-col space-y-8">
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
-              <NewsMediumCard />
+              <NewsMediumCard News={news} />
             </div>
           </div>
         </div>

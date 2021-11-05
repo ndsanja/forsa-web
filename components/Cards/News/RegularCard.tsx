@@ -38,7 +38,7 @@ const NewsRegularCard = (props: propsNews) => {
                   </h6>
                   <div className="h-[2px] w-[16px] lg:w-[18px] bg-red-800"></div>
                 </div>
-                <Link href={`/news/${item.id}`}>
+                <Link href={`/berita/${item.id}`}>
                   <a>
                     <h1 className="font-nocturno-regular text-title-medium sm:text-title-large">
                       {item.title}

@@ -1,5 +1,6 @@
 import { Donation as DonationProps } from "../../../utils/PropsType";
 import Link from "next/link";
+import Image from "next/image";
 
 type props = {
   Donations: DonationProps[];
@@ -10,10 +11,11 @@ const DonationRegularCard = ({ Donations }: props) => {
       {Donations.map((donation) => (
         <div key={donation.id} className="flex flex-col space-y-4 border ">
           <div className="h-full w-full aspect-w-16 aspect-h-9 object-cover object-center">
-            <img
+            <Image
               className="object-cover object-center"
               src={donation.image}
               alt={donation.image_alt}
+              layout="fill"
             />
           </div>
           <div className="flex flex-col space-y-2 px-4">

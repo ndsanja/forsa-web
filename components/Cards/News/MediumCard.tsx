@@ -1,10 +1,13 @@
+import Image from "next/image";
+
 const NewsMediumCard = () => {
   return (
     <div className=" space-y-2  ">
       <div className="flex flex-row-reverse space-y-4  items-center ">
         <div className="h-full   w-[15%] ">
           <div className="aspect-w-1 aspect-h-1  ">
-            <img
+            <Image
+              layout="fill"
               className="object-cover object-center"
               src="https://news.harvard.edu/wp-content/uploads/2021/10/20211028_cop26_wfire-1350x759.jpg"
               alt="gambar"

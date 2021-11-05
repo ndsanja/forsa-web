@@ -1,8 +1,11 @@
+import Image from "next/image";
+
 const NewsBigCard = () => {
   return (
     <div className="col-span-2 space-y-6 mx-[-8%] md:ml-0 md:mr-[-12.5%]">
       <div className="h-full w-full aspect-w-16 aspect-h-9">
-        <img
+        <Image
+          layout="fill"
           src="https://news.harvard.edu/wp-content/uploads/2021/10/101321_ESPP_028-1600x900.jpg"
           alt="gambar"
         />

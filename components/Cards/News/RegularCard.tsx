@@ -1,10 +1,13 @@
+import Image from "next/image";
+
 const NewsRegularCard = () => {
   return (
     <div className=" space-y-2 md:space-y-4 ">
       <div className="flex flex-row-reverse space-y-4 md:space-y-4 md:flex-col items-center md:items-start md:space-x-0">
         <div className="h-full md:w-full  w-[30%] ">
           <div className="aspect-w-1 aspect-h-1 md:aspect-w-16 md:aspect-h-9 ">
-            <img
+            <Image
+              layout="fill"
               className="object-cover object-center"
               src="https://news.harvard.edu/wp-content/uploads/2021/10/20211028_cop26_wfire-1350x759.jpg"
               alt="gambar"

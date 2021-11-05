@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const NewsSmallCard = () => {
   return (
     <div className="flex space-x-2 items-center">
@@ -6,7 +8,8 @@ const NewsSmallCard = () => {
       </h1>
       <div className="h-full w-[15%]">
         <div className="aspect-w-1 aspect-h-1  ">
-          <img
+          <Image
+            layout="fill"
             className="object-cover object-center"
             src="https://news.harvard.edu/wp-content/uploads/2021/10/20211028_cop26_wfire-1350x759.jpg"
             alt="gambar"

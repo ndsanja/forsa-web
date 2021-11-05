@@ -1,5 +1,6 @@
 import { Event as EventProps } from "../../../utils/PropsType";
 import Link from "next/link";
+import Image from "next/image";
 
 type props = {
   Events: EventProps[];
@@ -14,10 +15,11 @@ const EventsRegularCard = ({ Events }: props) => {
           className="flex flex-col space-y-2 min-w-[70vw] md:min-w-full md:w-full"
         >
           <div className="h-full w-full aspect-w-1 aspect-h-1">
-            <img
+            <Image
               className="object-center object-cover"
               src={Event.image}
               alt={Event.image_alt}
+              layout="fill"
             />
           </div>
           <Link href={`/events/${Event.id}`}>

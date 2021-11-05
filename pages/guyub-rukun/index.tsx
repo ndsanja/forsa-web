@@ -2,6 +2,7 @@ import NewsRegularCard from "../../components/Cards/News/RegularCard";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
+import { news } from "../../utils/data/news";
 
 const index = () => {
   return (
@@ -82,14 +83,7 @@ const index = () => {
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <NewsRegularCard />
-              <NewsRegularCard />
-              <NewsRegularCard />
-              <NewsRegularCard />
-              <NewsRegularCard />
-              <NewsRegularCard />
-              <NewsRegularCard />
-              <NewsRegularCard />
+              <NewsRegularCard News={news} />
             </div>
           </div>
         </div>

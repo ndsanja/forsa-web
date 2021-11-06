@@ -8,15 +8,15 @@ const AlumniMengajar = () => {
           Segera Hadir
         </h2>
         <h1 className="font-nocturno-light text-headline-large text-center">
-          FORSA Alumni Mengajar
+          Sekolah Terbuka
         </h1>
         <h2 className="font-dinamit-extralight text-title-large underline">
-          Lets Join Us
+          by FORSA
         </h2>
       </div>
       <div className="font-dinamit-extralight text-label-large space-x-4 md:space-x-8">
-        <button className="px-4 py-2 border border-black">More Info</button>
-        <button className="px-4 py-2 border border-black">E - Learning</button>
+        <button className="px-4 py-2 border border-black">Gabung</button>
+        <button className="px-4 py-2 border border-black">Selengkapnya</button>
       </div>
     </div>
   );

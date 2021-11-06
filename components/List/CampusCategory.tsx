@@ -15,7 +15,7 @@ const campus = [
 
 const category = [
   { name: "Semua Kategory", value: "all-category" },
-  { name: "Forsa", value: "forsa" },
+  { name: "Forsa - Alumni SMANGAT", value: "forsa" },
   { name: "Passing Grade", value: "passing-grade" },
   { name: "Jurusan", value: "jurusan" },
   { name: "Biaya Hidup", value: "biaya-hidup" },

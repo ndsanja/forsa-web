@@ -7,11 +7,11 @@ const AlumniMengajar = () => {
         <h2 className="font-dinamit-extralight text-title-large">
           Segera Hadir
         </h2>
-        <h1 className="font-nocturno-light text-headline-large text-center">
+        <h1 className="font-nocturno-light text-display-medium text-center">
           Sekolah Terbuka
         </h1>
         <h2 className="font-dinamit-extralight text-title-large underline">
-          by FORSA
+          by Forsa
         </h2>
       </div>
       <div className="font-dinamit-extralight text-label-large space-x-4 md:space-x-8">

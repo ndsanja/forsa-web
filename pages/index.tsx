@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           <div className="absolute top-0 z-10 md:hidden mx-[7%] md:mx-[12%] ">
             <Logo />
           </div>
-          <div className="space-y-20 md:space-y-20 lg:space-y-32">
+          <div className="space-y-20 md:space-y-12 lg:space-y-20">
             <div className="mx-[7%]">
               <div className="flex flex-col md:flex-row-reverse space-y-16 md:space-y-0">
                 <div className="md:w-[65%] grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-14 ">
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className=" md:w-[35%] md:pr-[10%] lg:pr-[13%]  md:space-y-4 -mr-5 md:mr-0">
-                  <div className="pb-20 hidden md:block">
+                  <div className="pb-32 hidden md:block">
                     <Logo />
                   </div>
                   <h3 className="font-dinamit-medium uppercase tracking-widest text-label-medium mb-4 md:mb-0">

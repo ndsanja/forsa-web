@@ -10,10 +10,11 @@ import Layout from "../components/Layout";
 import { events } from "../utils/data/events";
 import { donations } from "../utils/data/donations";
 import { news } from "../utils/data/news";
+import { getAllPostsForHome } from "../lib/api";
 
-const Home: NextPage = () => {
+const Home: NextPage = ({ allPosts: { edges }, preview }) => {
   return (
-    <div className="container max-w-screen-3xl w-screen bg-white relative ">
+    <div className="container relative w-screen bg-white max-w-screen-3xl ">
       <Layout>
         <div className="pb-32">
           <div className="absolute top-0 z-10 md:hidden mx-[7%] md:mx-[12%] ">
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
           </div>
           <div className="space-y-14 md:space-y-16 lg:space-y-24">
             <div className="mx-[7%]">
-              <div className="flex flex-col md:flex-row-reverse space-y-16 md:space-y-0">
+              <div className="flex flex-col space-y-16 md:flex-row-reverse md:space-y-0">
                 <div className="md:w-[65%] grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-14 ">
                   <div className="col-span-2 ">
                     <NewsBigCard News={news.slice(0, 1)} />
@@ -35,13 +36,13 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className=" md:w-[35%] md:pr-[10%] lg:pr-[13%]  md:space-y-4 -mr-5 md:mr-0">
-                  <div className="pb-20 hidden md:block">
+                  <div className="hidden pb-20 md:block">
                     <Logo />
                   </div>
-                  <h3 className="font-dinamit-medium uppercase tracking-widest text-label-medium mb-4 md:mb-0">
+                  <h3 className="mb-4 tracking-widest uppercase font-dinamit-medium text-label-medium md:mb-0">
                     forsa Events
                   </h3>
-                  <div className="flex pb-8 md:pb-0 md:flex-col space-x-10 md:space-x-0  md:space-y-10 overflow-x-scroll md:overflow-x-hidden w-full">
+                  <div className="flex w-full pb-8 space-x-10 overflow-x-scroll md:pb-0 md:flex-col md:space-x-0 md:space-y-10 md:overflow-x-hidden">
                     <EventsRegularCard Events={events} />
                   </div>
                 </div>

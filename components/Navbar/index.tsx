@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="fixed left-0 right-0 top-0 bottom-0 w-screen h-screen bg-[#A51C30] lg:mx-0 z-30">
           <div
             onClick={navToogle}
-            className="max-w-[7%] lg:max-w-[3%] flex justify-center fixed top-[4%] left-[3%] lg:left-[95%] right-0 text-gray-300 transition-all duration-300  hover:text-white cursor-pointer"
+            className="max-w-[7%] lg:max-w-[3%] flex justify-center fixed top-[4%] left-[90%] lg:left-[0.5%] right-0 text-white transition-all duration-300  hover:text-gray-300 cursor-pointer"
           >
             <MdClear className="w-7 h-7 lg:h-7 lg:w-7" />
           </div>
@@ -40,49 +40,59 @@ const Navbar = () => {
                 </div>
               </div>
 
-              <div className="space-y-[5%]">
-                <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
-                  <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
+              <div className="space-y-[7%]">
+                <div>
                   <Link href="/">
-                    <a className="group-hover:text-yellow-200">Home</a>
-                  </Link>
-                </div>
-                <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
-                  <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
-                  <Link href="/berita">
-                    <a className="group-hover:text-yellow-200">Berita</a>
-                  </Link>
-                </div>
-                <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
-                  <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
-                  <Link href="/events">
-                    <a className="group-hover:text-yellow-200">Events</a>
-                  </Link>
-                </div>
-                <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
-                  <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
-                  <Link href="/donasi">
-                    <a className="group-hover:text-yellow-200">Donasi</a>
-                  </Link>
-                </div>
-                <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
-                  <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
-                  <Link href="/alumni-mengajar">
-                    <a className="group-hover:text-yellow-200">
-                      Alumni Mengajar
+                    <a>
+                      <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
+                        <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
+                        <p className="group-hover:text-yellow-200">Home</p>
+                      </div>
                     </a>
                   </Link>
                 </div>
-                <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
-                  <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
-                  <Link href="/expo-campus">
-                    <a className="group-hover:text-yellow-200">Expo Campus</a>
+                <div>
+                  <Link href="/berita">
+                    <a>
+                      <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
+                        <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
+                        <p className="group-hover:text-yellow-200">Berita</p>
+                      </div>
+                    </a>
                   </Link>
                 </div>
-                <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
-                  <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
-                  <Link href="/guyub-rukun">
-                    <a className="group-hover:text-yellow-200">Guyub Rukun</a>
+                <div>
+                  <Link href="/events">
+                    <a>
+                      <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
+                        <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
+                        <p className="group-hover:text-yellow-200">Events</p>
+                      </div>
+                    </a>
+                  </Link>
+                </div>
+                <div>
+                  <Link href="/expo-campus">
+                    <a>
+                      <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
+                        <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
+                        <p className="group-hover:text-yellow-200">
+                          Expo Campus
+                        </p>
+                      </div>
+                    </a>
+                  </Link>
+                </div>
+                <div>
+                  <Link href="/kelas-terbuka">
+                    <a>
+                      <div className="group flex items-center ml-[-7%] space-x-[2%] font-nocturno-light text-headline-medium text-white cursor-pointer transition-all ease-in-out">
+                        <div className="w-[4%] h-[2px] group-hover:bg-yellow-200 duration-700" />
+                        <p className="group-hover:text-yellow-200">
+                          Kelas Terbuka
+                        </p>
+                      </div>
+                    </a>
                   </Link>
                 </div>
               </div>

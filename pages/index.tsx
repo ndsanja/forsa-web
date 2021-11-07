@@ -7,7 +7,7 @@ import SectionTitle from "../components/SectionTitle";
 import Logo from "../components/Logo";
 import SekolahTerbuka from "../components/SekolahTerbuka";
 import Layout from "../components/Layout";
-import CampusCategory from "../components/List/CampusCategory";
+import CampusCategory from "../components/Category/CampusCategory";
 import { events } from "../utils/data/events";
 import { news } from "../utils/data/news";
 

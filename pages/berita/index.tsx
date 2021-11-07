@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
 import Link from "next/link";
 import { news } from "../../utils/data/news";
+import NewsCategory from "../../components/Category/NewsCategory";
 
 const index = () => {
   return (
@@ -73,7 +74,7 @@ const index = () => {
           </div>
           <div className="lg:w-[70%] xl:w-[65%]">
             <div className="flex flex-col ">
-              <div className="flex flex-col  max-w-screen-lg mb-[10%] lg:mb-[20%]">
+              <div className="flex flex-col  max-w-screen-lg mb-[10%] lg:mb-[15%] md:space-y-4 lg:space-y-8">
                 <h3 className="font-dinamit-medium text-label-small md:text-label-large uppercase tracking-wider text-blue-800 mb-[1%]">
                   Arsip Berita
                 </h3>
@@ -82,7 +83,8 @@ const index = () => {
                 </h1>
               </div>
             </div>
-            <div className="flex flex-col space-y-8">
+            <NewsCategory />
+            <div className="flex flex-col space-y-8 mt-16">
               <NewsMediumCard News={news} />
             </div>
           </div>

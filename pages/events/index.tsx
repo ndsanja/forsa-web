@@ -1,6 +1,7 @@
 import EventsRegularCard from "../../components/Cards/Events/RegularCard";
 import Layout from "../../components/Layout";
 import Logo from "../../components/Logo";
+import EventsCategory from "../../components/Category/EventsCategory";
 import Link from "next/link";
 import { events } from "../../utils/data/events";
 
@@ -73,7 +74,7 @@ const index = () => {
           </div>
           <div className="lg:w-[70%] xl:w-[65%]">
             <div className="flex flex-col ">
-              <div className="flex flex-col  max-w-screen-lg mb-[10%] lg:mb-[20%]">
+              <div className="flex flex-col  max-w-screen-lg mb-[10%] lg:mb-[15%] md:space-y-4 lg:space-y-8">
                 <h3 className="font-dinamit-medium text-label-small md:text-label-large uppercase tracking-wider text-blue-800 mb-[1%]">
                   Arsip Event
                 </h3>
@@ -82,7 +83,8 @@ const index = () => {
                 </h1>
               </div>
             </div>
-            <div className="grid md:grid-cols-2 gap-8">
+            <EventsCategory />
+            <div className="grid md:grid-cols-2 gap-8 mt-16">
               <EventsRegularCard Events={events} />
             </div>
           </div>

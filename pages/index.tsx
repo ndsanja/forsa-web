@@ -52,17 +52,20 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="space-y-16">
+            <div className="space-y-12 lg:space-y-16">
               <SectionTitle sectionTitle="Expo Campus" />
               <div className="flex flex-col justify-center items-center w-full font-dinamit-light text-label-small space-y-4 px-[7%]">
                 <div className="flex flex-col w-full space-y-1">
+                  <div className="font-dinamit-light text-label-small">
+                    Akses cepat informasi
+                  </div>
                   <div className="z-20">
                     <CampusCategory />
                   </div>
                 </div>
               </div>
               <div className=" mx-[7%]">
-                <div className="font-dinamit-medium uppercase tracking-widest text-label-small mb-4 md:mb-0">
+                <div className="font-dinamit-medium uppercase tracking-widest text-label-small mb-4">
                   Populer di Expo Campus
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-8 lg:gap-14">

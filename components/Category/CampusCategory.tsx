@@ -144,7 +144,7 @@ export default function CampusCategory() {
         </div>
       </div>
       <a
-        href={`/berita/${categorySelected.value}-${campusSelected.value}`}
+        href={`/expo-campus/${categorySelected.value}-${campusSelected.value}`}
         className="text-label-medium lg:text-label-large px-4 py-2 bg-black text-white border-black border"
       >
         Cari

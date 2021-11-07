@@ -1,7 +1,7 @@
 const index = () => {
   return (
-    <div className="bg-black text-white font-dinamit-light pt-8 pb-6 flex justify-center ">
-      <div className="max-w-screen-lg space-y-8 px-4">
+    <div className="bg-black text-white font-dinamit-light pt-8 pb-6 md:pb-8 flex justify-center ">
+      <div className="max-w-screen-xl space-y-12  md:space-y-16 px-4">
         <div className="grid md:grid-cols-3 gap-12">
           <div className="flex flex-col items-center justify-start space-y-2">
             <div className="text-label-small">Privacy & Policy</div>
@@ -33,10 +33,10 @@ const index = () => {
           <p className="text-center">
             © 2021 Forum SIlaturahmi Alumni SMA Negeri 1 Srengat
           </p>
-          <div className="text-[0.6rem] text-gray-400">
+          {/* <div className="text-[0.6rem] text-gray-400">
             Develop by <span className="text-red-500">ND Sanja</span> &{" "}
             <span className="text-red-500">Danang TP</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -8,11 +8,15 @@ import Logo from "../components/Logo";
 import SekolahTerbuka from "../components/SekolahTerbuka";
 import Layout from "../components/Layout";
 import CampusCategory from "../components/List/CampusCategory";
+
 import { events } from "../utils/data/events";
 import { news } from "../utils/data/news";
-import { getAllPostsForHome } from "../lib/api";
+import { getAllPostsForHome } from "../lib/api-post";
+import { PostsPreview } from "../utils/PropsType-api";
 
-const Home: NextPage = ({ allPosts: { edges }, preview }) => {
+
+const Home: NextPage<PostsPreview> = ({ posts: { edges }, preview }) => {
+  console.log("🚀 ~ file: index.tsx ~ line 16 ~ allPosts", edges)
   return (
     <div className="container relative w-screen bg-white max-w-screen-3xl ">
       <Layout>
@@ -25,7 +29,7 @@ const Home: NextPage = ({ allPosts: { edges }, preview }) => {
               <div className="flex flex-col space-y-16 md:flex-row-reverse md:space-y-0">
                 <div className="md:w-[65%] grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-14 ">
                   <div className="col-span-2 ">
-                    <NewsBigCard News={news.slice(0, 1)} />
+                    <NewsBigCard News={edges?.slice(0, 1)} />
                   </div>
                   <NewsRegularCard
                     News={news.slice(1, 3)}
@@ -45,7 +49,7 @@ const Home: NextPage = ({ allPosts: { edges }, preview }) => {
                   <div className="flex w-full pb-8 space-x-10 overflow-x-scroll md:pb-0 md:flex-col md:space-x-0 md:space-y-10 md:overflow-x-hidden">
                     <EventsRegularCard Events={events} />
                   </div>
-                  <div className="font-dinamit-light label text-label-large underline mt-2">
+                  <div className="mt-2 underline font-dinamit-light label text-label-large">
                     <Link href="/events">
                       <a>Events Lainya</a>
                     </Link>
@@ -63,10 +67,10 @@ const Home: NextPage = ({ allPosts: { edges }, preview }) => {
                 </div>
               </div>
               <div className=" mx-[7%]">
-                <div className="font-dinamit-medium uppercase tracking-widest text-label-small mb-4 md:mb-0">
+                <div className="mb-4 tracking-widest uppercase font-dinamit-medium text-label-small md:mb-0">
                   Populer di Expo Campus
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-8 lg:gap-14">
+                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-14">
                   <NewsRegularCard
                     News={news.slice(0, 1)}
                     className="md:col-span-2 lg:col-span-1"
@@ -84,9 +88,9 @@ const Home: NextPage = ({ allPosts: { edges }, preview }) => {
 };
 
 export async function getStaticProps({ preview = false }) {
-  const allPosts = await getAllPostsForHome(preview)
+  const posts = await getAllPostsForHome(preview)
   return {
-    props: { allPosts, preview },
+    props: { posts, preview },
   }
 }
 
